@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 w-64">
 
         <a 
-          href="https://tiktok.com" 
+          href="https://www.tiktok.com/@.traffic360.digitaleg" 
           target="_blank" 
           className="flex items-center justify-center gap-3 bg-black py-3 rounded-lg hover:scale-105 transition"
         >
