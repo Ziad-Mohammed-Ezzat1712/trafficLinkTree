@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 via-neutral-800 to-black text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-r from-[#2cc1c4] via-neutral-800 to-black text-white">
       
       <img
         src={logo}
@@ -38,7 +38,7 @@ export default function Home() {
         <a 
           href="https://www.instagram.com/traffic360_digitalhub?igsh=eXBocmVpMzZreHpu" 
           target="_blank" 
-          className="flex items-center justify-center gap-3 bg-gradient-to-r from-pink-600 to-yellow-500 py-3 rounded-lg hover:scale-105 transition"
+          className="flex items-center justify-center gap-3 bg-linear-to-r from-pink-600 to-yellow-500 py-3 rounded-lg hover:scale-105 transition"
         >
           <FaInstagram size={20} />
           Instagram
