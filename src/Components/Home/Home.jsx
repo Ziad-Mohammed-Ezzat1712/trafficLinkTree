@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "/public/logo.webp";
 
-import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok, } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <a 
           href="https://www.tiktok.com/@.traffic360.digitaleg" 
           target="_blank" 
-          className="flex items-center justify-center gap-3 bg-black py-3 rounded-lg hover:scale-105 transition"
+          className="flex items-center font-semibold hover:font-bold justify-center gap-3 bg-black py-3 rounded-lg hover:scale-105 transition"
         >
           <FaTiktok size={20} />
           TikTok
@@ -29,7 +30,7 @@ export default function Home() {
         <a 
           href="https://www.facebook.com/profile.php?id=61578198429753" 
           target="_blank" 
-          className="flex items-center justify-center gap-3 bg-blue-600 py-3 rounded-lg hover:scale-105 transition"
+          className="flex items-center font-semibold hover:font-bold justify-center gap-3 bg-blue-600 py-3 rounded-lg hover:scale-105 transition"
         >
           <FaFacebookF size={20} />
           Facebook
@@ -38,11 +39,20 @@ export default function Home() {
         <a 
           href="https://www.instagram.com/traffic360_digitalhub?igsh=eXBocmVpMzZreHpu" 
           target="_blank" 
-          className="flex items-center justify-center gap-3 bg-linear-to-r from-pink-600 to-yellow-500 py-3 rounded-lg hover:scale-105 transition"
+          className="flex items-center font-semibold hover:font-bold justify-center gap-3 bg-linear-to-r from-pink-600 to-yellow-500 py-3 rounded-lg hover:scale-105 transition"
         >
           <FaInstagram size={20} />
           Instagram
         </a>
+           <a 
+          href="https://traffic360eg.com/" 
+          target="_blank" 
+          className="flex items-center font-semibold hover:font-bold justify-center gap-5 bg-[#146263] py-3 rounded-lg hover:scale-105 transition"
+        >
+          <CgWebsite size={22} />
+          Website
+        </a>
+
 
       </div>
     </div>
